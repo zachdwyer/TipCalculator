@@ -9,11 +9,11 @@ import javafx.stage.Stage;
 public class TipCalculator extends Application {
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("Hello World");
-        primaryStage.setScene(new Scene(root, 300, 275));
-        primaryStage.show();
+    public void start(Stage stage) throws Exception{
+        Parent root = FXMLLoader.load(getClass().getResource("TipCalculator.fxml"));
+        stage.setTitle("Tip Calculator");
+        stage.setScene(new Scene(root, 300, 275));
+        stage.show();
     }
 
 
